@@ -106,7 +106,7 @@ body {
     padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
-    overflow: hidden;
+
 }
 
 
@@ -662,6 +662,7 @@ body {
 
 .sale-conteiner {
     position: relative;
+    overflow: hidden;
 }
 
 .container {}
