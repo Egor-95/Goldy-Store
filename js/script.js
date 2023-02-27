@@ -146,11 +146,12 @@ var swiper2 = new Swiper('.swiper4', {
     spaceBetween: 24,
     centeredSlides: false,
     slidesPerView: 'auto',
+  
     
 
     navigation: {
-        nextEl: '.content-img-prev',
-        prevEl: '.content-img-next',
+        nextEl: '.content-img-next',
+        prevEl: '.content-img-prev',
     },
 
    
