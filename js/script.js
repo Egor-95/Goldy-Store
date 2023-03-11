@@ -39,24 +39,16 @@ multiDefault();
 
 // swiper
 const swiper = new Swiper('.swiper1', {
-
+    allowTouchMove: false,
     loop: true,
     speed: 600,
     spaceBetween: 24,
-    centeredSlides: false,
-    simulateTouch: true,
-    touchRatio: 1,
-    slidesPerView: 1,
-    slideToClickedSlide: true,
+    
     
 
     keyboard: {
         enabled: true,
         onlyInViewport: true,
-    },
-    mousewheel: {
-        sensitivity: 1,
-        EventTarget: '.hero__container',
     },
 
     navigation: {
@@ -75,7 +67,7 @@ const swiper = new Swiper('.swiper1', {
 
 
 var swiper2 = new Swiper('.swiper2', {
-    
+    allowTouchMove: false,
     speed: 600,
     spaceBetween: 24,
     centeredSlides: false,
@@ -160,7 +152,7 @@ var swiper2 = new Swiper('.swiper4', {
 });
 
 var swiper2 = new Swiper('.swiper5', {
-
+    allowTouchMove: false,
     speed: 600,
     spaceBetween: 24,
     centeredSlides: false,
@@ -172,8 +164,8 @@ var swiper2 = new Swiper('.swiper5', {
     },
 
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.product-day-next',
+        prevEl: '.product-day-prev',
 
     },
 

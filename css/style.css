@@ -157,6 +157,7 @@ body {
 
 
 .header-top-nav {
+    position: relative;
     display: flex;
     padding:0 0 5px 0;
 }
@@ -182,6 +183,7 @@ body {
 }
 .header-top-swg {
     position: absolute;
+    left: 15px;
     width: 10px;
     height: 15px;
     z-index: 5;
@@ -324,7 +326,7 @@ body {
 
 .choices[data-type*=select-one]:after {
     position: absolute;
-    top: 40%;
+    top: 35%;
     right: 21px;
     width: 9px;
     height: 5px;
@@ -665,12 +667,6 @@ body {
     overflow: hidden;
 }
 
-.container {}
-
-.sale-title {}
-
-.site-heading {
-}
 
 .sale-content-top {
     padding-bottom: 54px;
@@ -702,7 +698,7 @@ body {
     margin-right: 8px;
 }
 
-.top-list-link {}
+
 
 .top-list-button {
     position: sticky;
@@ -723,11 +719,6 @@ body {
     color: #303030;
 }
 
-.top-swiper {}
-
-.swiper {}
-
-.swiper-wrapper {}
 
 .top-swiper-slide {
     margin-top: 38px;
@@ -735,7 +726,6 @@ body {
     background-color: transparent;
 }
 
-.swiper-slide {}
 
 .top-swiper-content {
     justify-content: center;
@@ -747,7 +737,7 @@ body {
     overflow: hidden;
 }
 
-.row {}
+
 
 .top-swiper {
     height: 100%;
@@ -817,7 +807,6 @@ body {
 
 }
 
-.top-swiper-navswiper-button-prev {}
 
 .slider-button-top {
     display: flex;
@@ -841,17 +830,6 @@ body {
     left: auto;
 }
 
-
-.swiper-button-next {}
-
-
-.swiper-box-cont {
-
-}
-
-.swiper-box-img {
-
-}
 
 .swiper-box-pagin {
     bottom: 2px;
@@ -969,7 +947,6 @@ body {
     font-size: 36px;
 }
 
-.discont-img  {}
 
 .title-color1 {
     background-color: #E24B33;
@@ -993,13 +970,12 @@ body {
     position: relative;
 }
 
-.container {}
+
 
 .article-title {
     margin-bottom: 35px;
 }
 
-.site-heading {}
 
 .article-link {
     display: flex;
@@ -1040,7 +1016,7 @@ body {
     margin-right: 20px;
 }
 
-.article-item-link {}
+
 
 .article-img {
     margin-bottom: 20px;
@@ -1256,7 +1232,7 @@ body {
 }
 
 .clock-time-number {
-    width: 52px;
+    width: 65px;
     height: 40px;
     background-color: var(--color-wight);
     border: 1px solid #D0D0D0;
@@ -1364,8 +1340,8 @@ body {
 
 .popup {
     position: absolute;
-    top: 41%;
-    left: 39%;
+    top: 28%;
+    left: 51%;
     width: 271px;    
     height: 148px;
     padding: 24px;
